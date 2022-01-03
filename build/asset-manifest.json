@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/web3frontend/static/css/main.f0bcee13.chunk.css",
-    "main.js": "/web3frontend/static/js/main.94b9d255.chunk.js",
-    "main.js.map": "/web3frontend/static/js/main.94b9d255.chunk.js.map",
+    "main.css": "/web3frontend/static/css/main.dd20617a.chunk.css",
+    "main.js": "/web3frontend/static/js/main.467368a4.chunk.js",
+    "main.js.map": "/web3frontend/static/js/main.467368a4.chunk.js.map",
     "runtime-main.js": "/web3frontend/static/js/runtime-main.bfbf52cb.js",
     "runtime-main.js.map": "/web3frontend/static/js/runtime-main.bfbf52cb.js.map",
     "static/js/2.2de0b9f1.chunk.js": "/web3frontend/static/js/2.2de0b9f1.chunk.js",
@@ -10,14 +10,13 @@
     "static/js/3.d0292830.chunk.js": "/web3frontend/static/js/3.d0292830.chunk.js",
     "static/js/3.d0292830.chunk.js.map": "/web3frontend/static/js/3.d0292830.chunk.js.map",
     "index.html": "/web3frontend/index.html",
-    "static/css/main.f0bcee13.chunk.css.map": "/web3frontend/static/css/main.f0bcee13.chunk.css.map",
-    "static/js/2.2de0b9f1.chunk.js.LICENSE.txt": "/web3frontend/static/js/2.2de0b9f1.chunk.js.LICENSE.txt",
-    "static/media/alchemylogo.9821dc1c.svg": "/web3frontend/static/media/alchemylogo.9821dc1c.svg"
+    "static/css/main.dd20617a.chunk.css.map": "/web3frontend/static/css/main.dd20617a.chunk.css.map",
+    "static/js/2.2de0b9f1.chunk.js.LICENSE.txt": "/web3frontend/static/js/2.2de0b9f1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bfbf52cb.js",
     "static/js/2.2de0b9f1.chunk.js",
-    "static/css/main.f0bcee13.chunk.css",
-    "static/js/main.94b9d255.chunk.js"
+    "static/css/main.dd20617a.chunk.css",
+    "static/js/main.467368a4.chunk.js"
   ]
 }

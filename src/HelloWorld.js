@@ -86,7 +86,7 @@ const HelloWorld = () => {
       <h1> Welcome ! </h1>
       <button id="walletButton" onClick={connectWalletPressed}>
         {walletAddress.length > 0 ? (
-          "Connected: " +
+          "Connected to wallet " +
           String(walletAddress).substring(0, 6) +
           "..." +
           String(walletAddress).substring(38)
@@ -95,10 +95,10 @@ const HelloWorld = () => {
         )}
       </button>
 
-      <h2 style={{ paddingTop: "50px" }}>Current Message:</h2>
+      <h3>Current Message:</h3>
       <p>{message}</p>
 
-      <h2 style={{ paddingTop: "18px" }}>New Message:</h2>
+      <h3>New Message:</h3>
 
       <div>
         <input
@@ -107,10 +107,10 @@ const HelloWorld = () => {
           onChange={(e) => setNewMessage(e.target.value)}
           value={newMessage}
         />
-        <p id="status">{status}</p>
+        <p id="statusMessage">{status}</p>
 
         <button id="publish" onClick={onUpdatePressed}>
-          Update
+          Update Message
         </button>
       </div>
     </div>

@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
   font-size: 16px;
 }
 
@@ -17,20 +17,14 @@ code {
     monospace;
 }
 
-#container {
-  width: 80vh;
-  border: 4px dashed rgba(4, 4, 5, 0.1);
-  min-height: 140px;
-  padding: 32px;
-  position: relative;
-  border-radius: 16px;
-  -webkit-box-align: center;
-  align-items: left;
-  -webkit-box-pack: center;
-  justify-content: left;
-  flex-direction: column;
-  text-align: left;
-  word-break: break-word;
+h3 {
+  display: block;
+  clear: both;
+  font-weight: 400;
+}
+
+a {
+  color: #254cdd;
 }
 
 input {
@@ -43,12 +37,6 @@ input {
   border-color: rgba(4, 4, 5, 0.1);
   line-height: 32px;
   margin: none;
-}
-
-#status {
-  color: #254cdd;
-  font-size: 14px;
-  font-weight: 600;
 }
 
 button {
@@ -72,6 +60,22 @@ button {
   font-family: Rubik, sans-serif;
 }
 
+#container {
+  width: 80vh;
+  border: 4px;
+  min-height: 140px;
+  padding: 32px;
+  position: relative;
+  border-radius: 16px;
+  -webkit-box-align: center;
+  align-items: left;
+  -webkit-box-pack: center;
+  justify-content: left;
+  flex-direction: column;
+  text-align: left;
+  word-break: break-word;
+}
+
 #logo {
   float: left;
   display: flex;
@@ -80,20 +84,17 @@ button {
   width: 210px;
 }
 
+#statusMessage {
+  color: #254cdd;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 #walletButton {
   padding: 7px 16px;
   background-color: white;
-  float: right;
+  float: left;
   border: 2px solid #254cdd;
   color: #254cdd;
-  margin-top: 0px;
-}
-h2 {
-  display: block;
-  clear: both;
-  font-weight: 400;
-}
-
-a {
-  color: #254cdd;
+  margin: 0px 0px 2vh 0px;
 }
