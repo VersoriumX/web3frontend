@@ -10,6 +10,23 @@ body {
   align-items: center;
   height: 100vh;
   font-size: 16px;
+
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color: white;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 code {
@@ -24,7 +41,7 @@ h3 {
 }
 
 a {
-  color: #254cdd;
+  color: white;
 }
 
 input {
@@ -43,11 +60,11 @@ button {
   padding: 9px 16px;
   max-height: 40px;
   *box-shadow: 4px 4px 15px 0 rgb(0 0 0 / 20%);
-  border-color: #254cdd;
-  border: none;
+  border-color: black;
+  border: 1px solid white;
   background: none;
   color: white;
-  background-color: #254cdd;
+  background-color: transparent;
   border-radius: 6px;
   align-items: center;
   font-size: 16px;
@@ -85,16 +102,16 @@ button {
 }
 
 #statusMessage {
-  color: #254cdd;
-  font-size: 14px;
-  font-weight: 600;
+  color: white;
+  font-size: 16px;
+  font-weight: 100;
 }
 
 #walletButton {
   padding: 7px 16px;
-  background-color: white;
+  background-color: transparent;
   float: left;
-  border: 2px solid #254cdd;
-  color: #254cdd;
+  border: 0px solid white;
+  color: white;
   margin: 0px 0px 2vh 0px;
 }

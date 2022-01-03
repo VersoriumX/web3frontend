@@ -86,7 +86,7 @@ const HelloWorld = () => {
       <h1> Welcome ! </h1>
       <button id="walletButton" onClick={connectWalletPressed}>
         {walletAddress.length > 0 ? (
-          "Connected to wallet " +
+          "Currently connected to wallet " +
           String(walletAddress).substring(0, 6) +
           "..." +
           String(walletAddress).substring(38)
@@ -95,10 +95,10 @@ const HelloWorld = () => {
         )}
       </button>
 
-      <h3>Current Message:</h3>
+      <h3>Current Message in blockchain:</h3>
       <p>{message}</p>
 
-      <h3>New Message:</h3>
+      <h3>New Message you want to display:</h3>
 
       <div>
         <input

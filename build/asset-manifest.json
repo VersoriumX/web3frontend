@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/web3frontend/static/css/main.dd20617a.chunk.css",
-    "main.js": "/web3frontend/static/js/main.467368a4.chunk.js",
-    "main.js.map": "/web3frontend/static/js/main.467368a4.chunk.js.map",
+    "main.css": "/web3frontend/static/css/main.becac98a.chunk.css",
+    "main.js": "/web3frontend/static/js/main.3f3a5f5e.chunk.js",
+    "main.js.map": "/web3frontend/static/js/main.3f3a5f5e.chunk.js.map",
     "runtime-main.js": "/web3frontend/static/js/runtime-main.bfbf52cb.js",
     "runtime-main.js.map": "/web3frontend/static/js/runtime-main.bfbf52cb.js.map",
     "static/js/2.2de0b9f1.chunk.js": "/web3frontend/static/js/2.2de0b9f1.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.d0292830.chunk.js": "/web3frontend/static/js/3.d0292830.chunk.js",
     "static/js/3.d0292830.chunk.js.map": "/web3frontend/static/js/3.d0292830.chunk.js.map",
     "index.html": "/web3frontend/index.html",
-    "static/css/main.dd20617a.chunk.css.map": "/web3frontend/static/css/main.dd20617a.chunk.css.map",
+    "static/css/main.becac98a.chunk.css.map": "/web3frontend/static/css/main.becac98a.chunk.css.map",
     "static/js/2.2de0b9f1.chunk.js.LICENSE.txt": "/web3frontend/static/js/2.2de0b9f1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bfbf52cb.js",
     "static/js/2.2de0b9f1.chunk.js",
-    "static/css/main.dd20617a.chunk.css",
-    "static/js/main.467368a4.chunk.js"
+    "static/css/main.becac98a.chunk.css",
+    "static/js/main.3f3a5f5e.chunk.js"
   ]
 }
