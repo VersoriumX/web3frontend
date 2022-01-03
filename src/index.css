@@ -34,6 +34,16 @@ code {
     monospace;
 }
 
+#titleWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#titleWrapper > h1:first-child {
+  margin: 3vw;
+}
+
 h3 {
   display: block;
   clear: both;
@@ -78,7 +88,6 @@ button {
 }
 
 #container {
-  width: 80vh;
   border: 4px;
   min-height: 140px;
   padding: 32px;
@@ -111,7 +120,7 @@ button {
   padding: 7px 16px;
   background-color: transparent;
   float: left;
-  border: 0px solid white;
+  border: 1px solid white;
   color: white;
   margin: 0px 0px 2vh 0px;
 }

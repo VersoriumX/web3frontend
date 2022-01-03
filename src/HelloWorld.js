@@ -83,7 +83,9 @@ const HelloWorld = () => {
   //the UI of our component
   return (
     <div id="container">
-      <h1> Welcome ! </h1>
+      <div id="titleWrapper">
+        <h1> 😄 Welcome ! </h1>
+      </div>
       <button id="walletButton" onClick={connectWalletPressed}>
         {walletAddress.length > 0 ? (
           "Currently connected to wallet " +
@@ -95,15 +97,15 @@ const HelloWorld = () => {
         )}
       </button>
 
-      <h3>Current Message in blockchain:</h3>
-      <p>{message}</p>
+      <h3>Current Message in smart contract:</h3>
+      <p>{"''" + message + "''"}</p>
 
       <h3>New Message you want to display:</h3>
 
       <div>
         <input
           type="text"
-          placeholder="Update the message in your smart contract."
+          placeholder="Update the message in the smart contract."
           onChange={(e) => setNewMessage(e.target.value)}
           value={newMessage}
         />
